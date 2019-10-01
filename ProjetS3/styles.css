@@ -17,3 +17,7 @@ body{
 #description{
   text-align: justify;
 }
+
+iframe{
+  width : 93%;
+}
