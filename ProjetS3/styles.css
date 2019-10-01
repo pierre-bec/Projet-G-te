@@ -1,0 +1,19 @@
+#wrapper {
+  max-width: 1400px;
+}
+
+.row {
+  margin-bottom: 0px;
+}
+
+h2{
+  font-size: 25px
+}
+
+body{
+  background-color: #e2f1f4;
+}
+
+#description{
+  text-align: justify;
+}

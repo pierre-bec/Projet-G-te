@@ -1,0 +1,1 @@
+Créer une base de données nommés projets3 composé d'une table chambre qui a comme élément une description de type text 
