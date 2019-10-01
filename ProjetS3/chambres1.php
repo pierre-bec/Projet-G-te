@@ -37,9 +37,9 @@
         </div>
       </div>
 
-      <!-- Chambres d'hôtes -->
+      <!-- Chambres -->
       <div class="row">
-        <h2> Nos chambres d'hôtes </h2>
+        <h2> La chambre </h2>
         <div class="col s12">
           <div class="card">
             <div class="card-content">
