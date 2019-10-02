@@ -16,7 +16,7 @@ class Conf {
     'database' => 'projetgikvadmin',
     // A l'IUT, c'est votre login
     // Sur votre machine, vous avez surement un compte 'root'
-    'login' => 'admin',
+    'login' => 'projetgikv',
     // A l'IUT, c'est votre mdp (INE par defaut)
     // Sur votre machine personelle, vous avez creez ce mdp a l'installation
     'password' => 'Azerty12'
