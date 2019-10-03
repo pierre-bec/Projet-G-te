@@ -18,7 +18,7 @@
                 <div class="card-content">
                     <div> <a class="menu" href="./index.php"> Accueil </a> </div>
                     <div> <a class="menu" href="./Admin.html"> Admin </a> </div>
-                    <div> <a class="menu" href="./lireChambre.php"> Chambre description test </a> </div>
+                    <div> <a class="menu" href="./test_desc.php"> test desc </a> </div>
                     <div> <a class="menu" href="./chambres1.php"> Chambre </a> </div>
                 </div>
             </div>
@@ -46,12 +46,15 @@
                 <div class="card-content">
                     <p id="description">
                         <?php
+
                         require_once 'Model.php';
-                        echo "Connexion réussie !" ;
-                        // require_once 'descritption_A.php';
-                        // $desc = new descritption_A();
-                       //  $desc = descritption_A::getDescription();
-                       // $desc->afficher();
+                        require_once 'Accueil.php';
+
+                        $desc = Accueil::getDescription();
+
+
+                            $desc[0]->afficher();
+                        
                         ?>
                     </p>
                 </div>
