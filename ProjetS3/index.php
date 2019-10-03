@@ -18,7 +18,6 @@
                 <div class="card-content">
                     <div> <a class="menu" href="./index.php"> Accueil </a> </div>
                     <div> <a class="menu" href="./Admin.html"> Admin </a> </div>
-                    <div> <a class="menu" href="./test_desc.php"> test desc </a> </div>
                     <div> <a class="menu" href="./chambres1.php"> Chambre </a> </div>
                 </div>
             </div>
