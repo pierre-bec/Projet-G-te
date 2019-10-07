@@ -21,3 +21,7 @@ body{
 iframe{
   width : 93%;
 }
+
+.nav>div>ul>li>a{
+  color : black;
+}

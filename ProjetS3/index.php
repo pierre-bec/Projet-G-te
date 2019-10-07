@@ -12,16 +12,16 @@
 <div class="container" id="wrapper">
 
     <!-- Menu -->
-    <div class="row">
-        <div class="col s12">
-            <div class="card">
-                <div class="card-content">
-                    <div> <a class="menu" href="./index.php"> Accueil </a> </div>
-                    <div> <a class="menu" href="./Admin.html"> Admin </a> </div>
-                    <div> <a class="menu" href="./chambres1.php"> Chambre </a> </div>
-                </div>
+    <div class="navbar-fixed">
+        <nav class="nav-wrapper blue lighten-5">
+            <div >
+                <ul class="left hide-on-med-and-down">
+                    <li><a class="black-text" href="./index.php">Accueil</a></li>
+                    <li><a class="black-text" href="./view/Admin.php">Admin</a></li>
+                    <li><a class="black-text" href="./view/chambres1.php">Chambre</a></li>
+                </ul>
             </div>
-        </div>
+        </nav>
     </div>
 
     <!-- Caroussel -->
@@ -30,7 +30,12 @@
             <div class="card">
                 <div class="card-content ">
                     <div class="center">
-                        <img src="images/1.jpg" alt="n1">
+                        
+                        <?php
+                        require_once './model/ModelAccueil.php';
+                        $adresse = ModelAccueil::getImage();
+                        echo "<img src=\"$adresse\" alt =\"n1\">";
+                        ?>
                     </div>
                 </div>
             </div>
@@ -46,13 +51,11 @@
                     <p id="description">
                         <?php
 
-                        require_once 'Model.php';
-                        require_once 'Accueil.php';
+                        require_once 'model/ModelAccueil.php';
 
-                        $desc = Accueil::getDescription();
+                        echo ModelAccueil::getDescription();
 
 
-                            $desc[0]->afficher();
                         
                         ?>
                     </p>
